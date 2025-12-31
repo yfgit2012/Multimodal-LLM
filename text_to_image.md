@@ -51,9 +51,6 @@ Configure negative prompt
 negative_prompt="ugly, deformed, disfigured, poor details, bad anatomy"
 ```
 
-Prompt: super realism cinematic film still of a young Chinese woman sitting on a bench reading a book, in a forest park. 
-highly detailed, high budget hollywood movie, cinemascope, moody, epic, gorgeous, film grain   
-
 Prompt: 
 ```
 super realism cinematic film still of a young woman sitting on a bench reading a book, in a forest park. 
@@ -80,8 +77,13 @@ Configure negative prompt
 negative_prompt="ugly, deformed, disfigured, poor details, bad anatomy"
 ```
 
-Prompt: super realism cinematic film still of a young Chinese woman sitting on a bench reading a book, in a forest park. 
-highly detailed, high budget hollywood movie, cinemascope, moody, epic, gorgeous, film grain 
+Prompt: 
+```
+super realism cinematic film still of a young woman sitting on a bench reading a book, in a forest park. 
+highly detailed, high budget hollywood movie, cinemascope, moody, epic, gorgeous, film grain   
+```
+
+![example1](images/kandinsky_t2i_example_1.png) 
 
 
 
@@ -99,5 +101,7 @@ controlnet = ControlNetModel.from_pretrained(
 
 Prompt: A young man, cold color palette, muted colors, detailed, 8k 
 
-
+3D model                                            |  Anime
+:--------------------------------------------------:|:--------------------------------------------------:
+![pose](images/sd15_control_net_pose_image.png)  |  ![generated](images/sd15_control_net_generated_image.png)
 

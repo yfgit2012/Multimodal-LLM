@@ -22,7 +22,7 @@ Configure positive magic and negative prompt
 
 ```
 positive_magic = {
-    "en": ", Ultra HD, 4K, cinematic composition.",  
+    "en": ", Ultra HD, 8K, cinematic composition.",  
 }
 
 negative_prompt = "low quality, blurry, ugly, poor details"
@@ -35,9 +35,13 @@ pipeline.load_lora_weights(
 )
 ```
 
-Prompt: super realism cinematic film still of a young Chinese woman sitting on a bench reading a book, in a forest park. 
+Prompt: 
+```
+super realism cinematic film still of a young woman sitting on a bench reading a book, in a forest park. 
 highly detailed, high budget hollywood movie, cinemascope, moody, epic, gorgeous, film grain   
+```
 
+![example1](images/qwen-image_t2i_example_1.png) 
 
 ### SDXL model 
 
@@ -50,9 +54,23 @@ negative_prompt="ugly, deformed, disfigured, poor details, bad anatomy"
 Prompt: super realism cinematic film still of a young Chinese woman sitting on a bench reading a book, in a forest park. 
 highly detailed, high budget hollywood movie, cinemascope, moody, epic, gorgeous, film grain   
 
+Prompt: 
+```
+super realism cinematic film still of a young woman sitting on a bench reading a book, in a forest park. 
+highly detailed, high budget hollywood movie, cinemascope, moody, epic, gorgeous, film grain   
+```
+
+![example1](images/sdxl_t2i_example_1.png) 
 
 Different style 
 
+3D model                                            |  Anime
+:--------------------------------------------------:|:--------------------------------------------------:
+![3dmodel](images/sdxl_t2i_example_1_3d_model.png)  |  ![anmie](images/sdxl_t2i_example_1_anime.png)
+
+Comic                                               |  Line art
+:--------------------------------------------------:|:--------------------------------------------------:
+![3dmodel](images/sdxl_t2i_example_1_comic.png)  |  ![anmie](images/sdxl_t2i_example_1_lineart.png)
 
 ### Kandinsky model 
 

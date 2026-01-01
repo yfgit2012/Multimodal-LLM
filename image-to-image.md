@@ -25,12 +25,19 @@ Original image                                                      |  Generated
 
 ### SDXL 
 
-negative_prompt = "ugly, deformed, disfigured, poor details, bad anatomy"
+negative_prompt = "ugly, deformed, disfigured, poor details, bad anatomy"      
 prompt = "cat wizard, gandalf, lord of the rings, detailed, fantasy, cute, adorable, Pixar, Disney, 8k"
 
 <img src="images/sdxl_i2i_cat.png" width="800" height="512" alt="cat_img" />
 
-Different style 
+Different style     
 
+Comic art                                                                           |  Digital artwork
+:----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
+<img src="images/sdxl_i2i_yb_comic.png" width="400" height="256" alt="comic_img" /> |<img src="images/sdxl_i2i_yb_digital.png" width="400" height="256" alt="comic_img" />
+
+Isometric art                                                                           | 3D cartoon
+:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:
+<img src="images/sdxl_i2i_yb_isometric.png" width="400" height="256" alt="comic_img" /> |<img src="images/sdxl_i2i_yb_3dcartoon.png" width="400" height="256" alt="comic_img" />
 
 

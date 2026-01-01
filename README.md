@@ -2,9 +2,6 @@
 <div align="center">
   
 # Multimodal LLM: Comprehensive Generative Suite Study
-  
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 </div>
 
@@ -26,20 +23,28 @@ Transform existing images into new styles or modify specific elements while main
 * **Supported Models:** ControlNet, IP-Adapter, and InstructPix2Pix.
 * **Key Features:** Style transfer, sketch-to-render, and depth-map guided generation.
 
+[Click here](image_to_image.md) to view details
+
 ### 3. Text-to-Video (T2V)
 Convert descriptive prompts into dynamic, high-definition video clips with consistent temporal coherence.
 * **Supported Models:** Sora-based architectures, Stable Video Diffusion (SVD), and Lumiere.
 * **Key Features:** Frame rate control, motion bucket adjustments, and resolution scaling.
+
+[Click here](text_to_video.md) to view details
 
 ### 4. Image-to-Video (I2V)
 Animate static images into 3–5 second cinematic clips using advanced optical flow estimation.
 * **Supported Models:** Runway Gen-2 API and Pika Labs wrappers.
 * **Key Features:** Keyframe animation, camera motion control (pan, zoom, tilt), and loop generation.
 
+[Click here](image_to_video.md) to view details
+
 ### 5. Text-to-Audio (T2A)
 Generate high-quality sound effects, ambient soundscapes, or musical compositions from text.
 * **Supported Models:** AudioLDM, MusicLM, and Bark.
 * **Key Features:** Stereo output, duration control, and multi-instrumental synthesis.
+
+[Click here](text_to_audio.md) to view details
 
 ---
 

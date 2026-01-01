@@ -19,6 +19,18 @@ quantization_config = PipelineQuantizationConfig(
 Prompt 
 "Transform the image into Ghibli style."
 
-Original image                                      |  Generated image
-:-----------------------------------:|:--------------------------------------------------:
-![org_img](images/yb_2.jpg =90x110)  |  ![gen_img](images/yb_2_edit.png =90x110)
+Original image                                                      |  Generated image
+:------------------------------------------------------------------:|:------------------------------------------------------------------------:
+<img src="images/yb_2.jpg" width="90" height="110" alt="org_img" /> |  <img src="images/yb_2_edit.png" width="90" height="110" alt="org_img" />
+
+### SDXL 
+
+negative_prompt = "ugly, deformed, disfigured, poor details, bad anatomy"
+prompt = "cat wizard, gandalf, lord of the rings, detailed, fantasy, cute, adorable, Pixar, Disney, 8k"
+
+<img src="images/sdxl_i2i_cat.png" width="800" height="512" alt="cat_img" />
+
+Different style 
+
+
+

@@ -12,6 +12,15 @@ pipeline = StableVideoDiffusionPipeline.from_pretrained(
     torch_dtype=torch.float16, 
 )
 ```
+Original image               
+![pic33](images/cogvideox_rocket.png)  
+
+Generated video      
+
+
+https://github.com/user-attachments/assets/67ee972b-27a3-40d4-92a0-8cb8bf6f60b4
+
+
 
 Original image               
 ![pic33](images/2026.png)  
@@ -19,8 +28,6 @@ Original image
 Generated video      
 
 https://github.com/user-attachments/assets/fdcd6a1c-d0fc-407b-ab38-b5b156fb9857
-
-
 
 Original image               
 ![pic33](images/pic_33.jpg)  

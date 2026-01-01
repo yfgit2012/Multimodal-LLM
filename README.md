@@ -19,6 +19,8 @@ Generate high-fidelity visual art and photorealistic images from natural languag
 * **Supported Models:** Stable Diffusion XL, Midjourney-API integration, and DALL-E 3.
 * **Key Features:** Support for negative prompting, LoRA weights, and custom aspect ratios.
 
+[Click here](text_to_image.md) to view details
+
 ### 2. Image-to-Image (I2I)
 Transform existing images into new styles or modify specific elements while maintaining structural integrity.
 * **Supported Models:** ControlNet, IP-Adapter, and InstructPix2Pix.

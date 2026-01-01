@@ -28,6 +28,15 @@ Original image                                                      |  Generated
 negative_prompt = "ugly, deformed, disfigured, poor details, bad anatomy"      
 prompt = "cat wizard, gandalf, lord of the rings, detailed, fantasy, cute, adorable, Pixar, Disney, 8k"
 
+Using upscaler 
+```
+upscaler = StableDiffusionLatentUpscalePipeline.from_pretrained(
+    "stabilityai/sd-x2-latent-upscaler", 
+    torch_dtype=torch.float16, 
+    use_safetensors=True
+)
+```
+
 <img src="images/sdxl_i2i_cat.png" width="800" height="512" alt="cat_img" />
 
 Different style     

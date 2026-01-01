@@ -20,5 +20,5 @@ Prompt
 "Transform the image into Ghibli style."
 
 Original image                                      |  Generated image
-:--------------------------------------------------:|:--------------------------------------------------:
-![org_img](images/yb_2.jpg){width=90px height=110px}  |  ![gen_img](images/yb_2_edit.png){width=90px height=110px}
+:-----------------------------------:|:--------------------------------------------------:
+![org_img](images/yb_2.jpg =90x110)  |  ![gen_img](images/yb_2_edit.png =90x110)

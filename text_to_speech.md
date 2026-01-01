@@ -91,6 +91,44 @@ https://github.com/user-attachments/assets/c66dcd4c-555b-411e-9874-6518b2958422
 
 
 
+### Voice cloning 
+Model: Coqui TTS (XTTS v2)
+
+Load model
+```
+tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", 
+          ).to("cuda")
+```
+
+text (English)
+```
+The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder and decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. 
+```
+Generated audio
+
+https://github.com/user-attachments/assets/aed5b38f-c2dc-4b75-ad68-6946f468cdb8
+
+
+text
+```
+锦瑟无端五十弦，一弦一柱思华年,
+庄生晓梦迷蝴蝶，望帝春心托杜鹃
+沧海月明珠有泪，蓝田日暖玉生烟
+此情可待成追忆，只是当时已惘然
+```
+Generated audio
+
+https://github.com/user-attachments/assets/4a869f1f-87f9-45d9-a978-87b766d059e8
+
+
+
+
+
+
+
+
+
+
 
 
 

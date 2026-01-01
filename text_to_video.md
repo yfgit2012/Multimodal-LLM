@@ -26,10 +26,61 @@ for a close-up. Water splashes berry bushes nearby, while moss, snow, and leaves
 Birch trees and a light blue sky frame the scene, with ferns in the foreground. Side lighting casts dynamic 
 shadows and warm highlights. Medium composition, front view, low angle, with depth of field.
 ```
-<video width="640" height="480" controls>
-  <source src="images/wan21_t2v_bear.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/41add3a3-903f-4fe9-97b9-59d3ce9f9fc1
 
 ### Modelscope (1.7B)
+
+Negative_prompt 
+```
+worst quality, inconsistent motion, blurry, jittery, distorted
+```
+Prompt 
+```
+The camera rushes from far to near in a low-angle shot, 
+revealing a white ferret on a log. It plays, leaps into the water, and emerges, as the camera zooms in 
+for a close-up. Water splashes berry bushes nearby, while moss, snow, and leaves blanket the ground. 
+Birch trees and a light blue sky frame the scene, with ferns in the foreground. Side lighting casts dynamic 
+shadows and warm highlights. Medium composition, front view, low angle, with depth of field.
+```
+
+https://github.com/user-attachments/assets/b4b61405-ecbd-4a94-aa88-b7ac4f0044d1
+
+### LTX-Video (1.7B)
+
+Negative_prompt 
+```
+worst quality, inconsistent motion, blurry, jittery, distorted
+```
+Prompt 
+```
+The camera rushes from far to near in a low-angle shot, 
+revealing a white ferret on a log. It plays, leaps into the water, and emerges, as the camera zooms in 
+for a close-up. Water splashes berry bushes nearby, while moss, snow, and leaves blanket the ground. 
+Birch trees and a light blue sky frame the scene, with ferns in the foreground. Side lighting casts dynamic 
+shadows and warm highlights. Medium composition, front view, low angle, with depth of field.
+```
+
+https://github.com/user-attachments/assets/eeb5b543-70d7-424c-a329-263dbd3e0dbb
+
+## AnimateDiff motion adapter 
+
+Adapter: guoyww/animatediff-motion-adapter-v1-5-2
+T2V model: emilianJR/epiCRealism
+
+Negative_prompt 
+```
+worst quality, inconsistent motion, blurry, jittery, distorted
+```
+Prompt 
+```
+The camera rushes from far to near in a low-angle shot, 
+revealing a white ferret on a log. It plays, leaps into the water, and emerges, as the camera zooms in 
+for a close-up. Water splashes berry bushes nearby, while moss, snow, and leaves blanket the ground. 
+Birch trees and a light blue sky frame the scene, with ferns in the foreground. Side lighting casts dynamic 
+shadows and warm highlights. Medium composition, front view, low angle, with depth of field.
+```
+
+https://github.com/user-attachments/assets/d7d229a8-9a16-4c36-82a8-0e054cc775ad
+
 

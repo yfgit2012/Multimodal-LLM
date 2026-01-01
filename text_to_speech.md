@@ -11,7 +11,10 @@ dispensing with recurrence and convolutions entirely.
 """
 
 Generated audio
-[speecht5_t2s_attention.wav](images/speecht5_t2s_attention.wav)
+
+https://github.com/user-attachments/assets/29e6b385-3681-4d00-9611-179faedf974a
+
+
 
 
 

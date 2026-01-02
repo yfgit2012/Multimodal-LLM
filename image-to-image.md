@@ -76,7 +76,7 @@ pipeline.load_ip_adapter(
 )
 pipeline.set_ip_adapter_scale([[0.7, 0.7]])
 ```
-Mask immmages:
+Mask images:
 
 <img src="images/masking_mask_images.png" width="50%" height="50%" alt="Mask" />
 
@@ -121,6 +121,59 @@ Prompt: "A photo of a young man, sitting on a stone bench in a park, reading a b
 Face                                                                 |  Generated
 :-------------------------------------------------------------------:|:------------------------------------------------------------------------------------:
 <img src="images/yb_2.jpg" width="120%" height="120%" alt="face2" /> |<img src="images/faceip_adapter_yb_2.png" width="30%" height="30%" alt="comic_img" />
+
+Use Control Net 
+```
+controlnet = ControlNetModel.from_pretrained(
+  "diffusers/controlnet-depth-sdxl-1.0-small",
+  torch_dtype=torch.float16
+)
+vae = AutoencoderKL.from_pretrained(
+    "madebyollin/sdxl-vae-fp16-fix",
+    torch_dtype=torch.float16
+)
+```
+
+Prompt: 
+```
+A photorealistic overhead image of a young Chinese woman, sitting in a coffee shop, reading a book. 
+The woman is seriously thinking about some important matters.
+```
+
+Original image | Mask image | Generated image        
+<img src="images/ipadapter_controlnet_1.png" width="80%" height="80%" alt="controlnet_1" />
+
+
+## T2I adapter   
+Mode: SDXL-base       
+Multiple adapters      
+```
+t2i_adapter_1 = T2IAdapter.from_pretrained(
+    "TencentARC/t2i-adapter-canny-sdxl-1.0",
+    torch_dtype=torch.float16,
+)
+t2i_adapter_2 = T2IAdapter.from_pretrained(
+    "TencentARC/t2i-adapter-depth-midas-sdxl-1.0", 
+    torch_dtype=torch.float16
+)
+adapters = MultiAdapter([t2i_adapter_1,t2i_adapter_2])
+
+vae = AutoencoderKL.from_pretrained(
+    "madebyollin/sdxl-vae-fp16-fix",
+    torch_dtype=torch.float16
+)
+```
+
+Prompt:    
+```
+A photorealistic overhead image of a young Japanese woman, wearing black glasses, 
+sitting in a coffee shop, reading a book, with a cup of coffee on the table, 8k, highly detailed
+```
+
+Original image | Canny image | Generated image        
+<img src="images/t2i_adapter_1.png" width="80%" height="80%" alt="t2i_1" />
+
+
 
 
 

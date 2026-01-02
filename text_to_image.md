@@ -105,25 +105,3 @@ Prompt: A young man, cold color palette, muted colors, detailed, 8k
 :--------------------------------------------------:|:--------------------------------------------------:
 ![pose](images/sd15_control_net_pose_image.png)  |  ![generated](images/sd15_control_net_generated_image.png)
 
-
-
-## Inpainting
-Model: SDXL-base 
-
-Prompt = "boat" 
-
-![inpainting](images/inpainting_boat.png) 
-
-
-
-## Outpainting
-Model: "SG161222/RealVisXL_V4.0"
-Control Net model: "destitech/controlnet-inpaint-dreamer-sdxl", "diffusers/controlnet-zoe-depth-sdxl-1.0"
-Vae model: "madebyollin/sdxl-vae-fp16-fix"
-
-
-
-## IP adapter 
-
-
-

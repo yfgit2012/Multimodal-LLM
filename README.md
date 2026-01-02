@@ -23,7 +23,7 @@ Transform existing images into new styles or modify specific elements while main
 * **Supported Models:** ControlNet, IP-Adapter, and InstructPix2Pix.
 * **Key Features:** Style transfer, sketch-to-render, and depth-map guided generation.
 
-[Click here](image_to_image.md) to view details
+[Click here](image-to-image.md) to view details
 
 ### 3. Text-to-Video (T2V)
 Convert descriptive prompts into dynamic, high-definition video clips with consistent temporal coherence.

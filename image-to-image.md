@@ -37,17 +37,17 @@ upscaler = StableDiffusionLatentUpscalePipeline.from_pretrained(
 )
 ```
 
-<img src="images/sdxl_i2i_cat.png" width="800" height="512" alt="cat_img" />
+<img src="images/sdxl_i2i_cat.png" width="50%" height="50%" alt="cat_img" />
 
 Different style     
 
 Comic art                                                                           |  Digital artwork
 :----------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
-<img src="images/sdxl_i2i_yb_comic.png" width="400" height="256" alt="comic_img" /> |<img src="images/sdxl_i2i_yb_digital.png" width="400" height="256" alt="comic_img" />
+<img src="images/sdxl_i2i_yb_comic.png" width="80%" height="80%" alt="comic_img" /> |<img src="images/sdxl_i2i_yb_digital.png" width="80%" height="80%" alt="comic_img" />
 
 Isometric art                                                                           | 3D cartoon
 :--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:
-<img src="images/sdxl_i2i_yb_isometric.png" width="400" height="256" alt="comic_img" /> |<img src="images/sdxl_i2i_yb_3dcartoon.png" width="400" height="256" alt="comic_img" />
+<img src="images/sdxl_i2i_yb_isometric.png" width="80%" height="80%" alt="comic_img" /> |<img src="images/sdxl_i2i_yb_3dcartoon.png" width="80%" height="80%" alt="comic_img" />
 
 
 ## Inpainting
@@ -55,8 +55,7 @@ Model: SDXL-base
 
 Prompt = "boat" 
 
-![inpainting](images/inpainting_boat.png) 
-
+<img src="images/inpainting_boat.png" width="50%" height="50%" alt="inpainting_boat" />
 
 
 ## Outpainting
@@ -79,18 +78,19 @@ pipeline.set_ip_adapter_scale([[0.7, 0.7]])
 ```
 Mask immmages:
 
-![Mask](images/masking_mask_images.png) 
+<img src="images/masking_mask_images.png" width="50%" height="50%" alt="Mask" />
 
 Face images:
 
-![Face](images/masking_face_images.png) 
+<img src="images/masking_face_images.png" width="50%" height="50%" alt="Face" />
 
 Negative_prompt: "monochrome, lowres, bad anatomy, worst quality, low quality"
 Prompt: "2 girls"
 
 Generated image: 
 
-![Generated](images/masking_generated_image.png) 
+<img src="images/masking_generated_image.png" width="50%" height="50%" alt="Generated" />
+
 
 ## IP adapters
 

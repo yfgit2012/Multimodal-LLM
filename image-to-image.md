@@ -79,11 +79,18 @@ pipeline.set_ip_adapter_scale([[0.7, 0.7]])
 ```
 Mask immmages:
 
+![Mask](images/masking_mask_images.png) 
+
 Face images:
+
+![Face](images/masking_face_images.png) 
 
 Negative_prompt: "monochrome, lowres, bad anatomy, worst quality, low quality"
 Prompt: "2 girls"
 
+Generated image: 
+
+![Generated](images/masking_generated_image.png) 
 
 ## IP adapters
 

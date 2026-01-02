@@ -50,3 +50,40 @@ Isometric art                                                                   
 <img src="images/sdxl_i2i_yb_isometric.png" width="400" height="256" alt="comic_img" /> |<img src="images/sdxl_i2i_yb_3dcartoon.png" width="400" height="256" alt="comic_img" />
 
 
+## Inpainting
+Model: SDXL-base 
+
+Prompt = "boat" 
+
+![inpainting](images/inpainting_boat.png) 
+
+
+
+## Outpainting
+Model: "SG161222/RealVisXL_V4.0"      
+Control Net model: "destitech/controlnet-inpaint-dreamer-sdxl", "diffusers/controlnet-zoe-depth-sdxl-1.0"      
+Vae model: "madebyollin/sdxl-vae-fp16-fix"      
+
+
+## Masking 
+Model: SDXL-base
+
+Load IP adapter model: "h94/IP-Adapter"
+```
+pipeline.load_ip_adapter(
+  "h94/IP-Adapter",
+  subfolder="sdxl_models",
+  weight_name="ip-adapter_sdxl.bin"
+)
+pipeline.set_ip_adapter_scale([[0.7, 0.7]])
+```
+Mask immmages:
+
+Face images:
+
+Negative_prompt: "monochrome, lowres, bad anatomy, worst quality, low quality"
+Prompt: "2 girls"
+
+
+## IP adapters
+

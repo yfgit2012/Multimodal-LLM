@@ -93,4 +93,36 @@ Generated image:
 
 
 ## IP adapters
+Model: SDXL-base    
+Image encoder: "h94/IP-Adapter"     
+
+Load IP adapters: "h94/IP-Adapter"      
+```
+pipeline.load_ip_adapter(
+  adapter_id,
+  subfolder="sdxl_models",
+  weight_name=["ip-adapter-plus_sdxl_vit-h.safetensors", "ip-adapter-plus-face_sdxl_vit-h.safetensors"]
+)
+
+pipeline.set_ip_adapter_scale([0.3,0.7])
+```
+
+Negative_prompt: "monochrome, lowres, bad anatomy, worst quality, low quality"      
+
+Prompt: "A photo of a young man, sitting at an office desk with a cup of coffee."
+
+Face                                                               |  Generated
+:-----------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
+<img src="images/yb_1.png" width="60%" height="60%" alt="face1" /> |<img src="images/faceip_adapter_yb_1.png" width="30%" height="30%" alt="comic_img" />
+
+
+Prompt: "A photo of a young man, sitting on a stone bench in a park, reading a book."
+
+Face                                                                 |  Generated
+:-------------------------------------------------------------------:|:------------------------------------------------------------------------------------:
+<img src="images/yb_2.jpg" width="120%" height="120%" alt="face2" /> |<img src="images/faceip_adapter_yb_2.png" width="30%" height="30%" alt="comic_img" />
+
+
+
+
 

@@ -171,7 +171,7 @@ sitting in a coffee shop, reading a book, with a cup of coffee on the table, 8k,
 ```
 
 Original image | Canny image | Generated image        
-<img src="images/t2i_adapter_1.png" width="80%" height="100%" alt="t2i_1" />
+<img src="images/t2i_adapter_1.png" width="80%" height="150%" alt="t2i_1" />
 
 
 

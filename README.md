@@ -22,7 +22,7 @@ Comic                                                                           
 :--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:
 <img src="images/sdxl_t2i_example_1_comic.png" width="60%" height="60%" alt="comic" />  |  <img src="images/sdxl_t2i_example_1_lineart.png" width="60%" height="60%" alt="lineart" />
 
-[Click here](text_to_image.md) to view configurations and examples
+[Click here](text_to_image.md) to view more configurations and examples
 
 ## 🚀 Image-to-Image (I2I)
 Transform existing images into new styles or modify specific elements while maintaining structural integrity.
@@ -40,7 +40,7 @@ Face                                                                 |  Generate
 Original image | Mask image | Generated image        
 <img src="images/ipadapter_controlnet_1.png" width="80%" height="80%" alt="controlnet_1" />
 
-[Click here](image-to-image.md) to view configurations and examples 
+[Click here](image-to-image.md) to view more configurations and examples 
 
 ## 🚀 Text-to-Video (T2V)
 Convert descriptive prompts into dynamic, high-definition video clips with consistent temporal coherence.
@@ -49,7 +49,7 @@ Convert descriptive prompts into dynamic, high-definition video clips with consi
 
 https://github.com/user-attachments/assets/41add3a3-903f-4fe9-97b9-59d3ce9f9fc1
 
-[Click here](text_to_video.md) to view configurations and examples 
+[Click here](text_to_video.md) to view more configurations and examples 
 
 ## 🚀 Image-to-Video (I2V)
 Animate static images into 3–5 second cinematic clips using advanced optical flow estimation.
@@ -58,16 +58,19 @@ Animate static images into 3–5 second cinematic clips using advanced optical f
 
 https://github.com/user-attachments/assets/67ee972b-27a3-40d4-92a0-8cb8bf6f60b4
 
-[Click here](image_to_video.md) to view configurations and examples 
+[Click here](image_to_video.md) to view more configurations and examples 
 
 ## 🚀 Text-to-Audio (T2A)
 Generate high-quality sound effects, ambient soundscapes, or musical compositions from text.
 * **Open-source Models:** Speech-T5, MMS-TTS, Kokoro TTS, musicgen-small, Coqui TTS (XTTS v2)
 * **Key Features:** voice cloning, multi-language support, duration control
 
+English (cloning my voice)                                                       |  Chinese Mandarin (cloning my voice) 
+:-------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:
+https://github.com/user-attachments/assets/3715c0f4-74fd-46d3-9c95-d13abe0d874b |  https://github.com/user-attachments/assets/9e0ad7dd-896e-46ad-9464-d211c529b067
 
 
-[Click here](text_to_speech.md) to view configurations and examples 
+[Click here](text_to_speech.md) to view more configurations and examples 
 
 ---
 

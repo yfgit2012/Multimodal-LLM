@@ -92,7 +92,7 @@ highly detailed, high budget hollywood movie, cinemascope, moody, epic, gorgeous
 Load control net model 
 ```
 controlnet = ControlNetModel.from_pretrained(
-	control_net_model_id, 
+	"lllyasviel/control_v11p_sd15_openpose", 
     torch_dtype=torch.float16, 
     variant="fp16",
     use_safetensors=True

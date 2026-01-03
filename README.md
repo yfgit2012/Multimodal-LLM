@@ -3,6 +3,8 @@
   
 # Multimodal LLM Study: Comprehensive Generative Suite
 
+https://github.com/user-attachments/assets/fdcd6a1c-d0fc-407b-ab38-b5b156fb9857
+
 </div>
 
 This repository is an all-in-one suite for open-source state-of-the-art **Multimodal Large Language Models**. It demonstrates examples for multimodal content generation by MMLLM across multiple mediums, including **text, images, video, and audio**. By leveraging cutting-edge architectures like Diffusion Transformers and Latent Consistency Models, you can build sophisticated generative image, video and speech with optimized latency and compute resources, as well as minimum costs. 

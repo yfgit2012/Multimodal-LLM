@@ -1,56 +1,53 @@
 
 <div align="center">
   
-# Multimodal LLM: Comprehensive Generative Suite Study
+# Multimodal LLM Study: Comprehensive Generative Suite
 
 </div>
 
-This repository serves as an all-in-one  for open-source state-of-the-art **Multimodal Large Language Models**. It provides a unified interface and streamlined pipeline for generating and transforming content across multiple mediums, including **text, images, video, and audio**. By leveraging cutting-edge architectures like Diffusion Transformers and Latent Consistency Models, this suite enables developers to build sophisticated generative workflows with minimal setup.
+This repository is an all-in-one suite for open-source state-of-the-art **Multimodal Large Language Models**. It demonstrates examples for multimodal content generation by MMLLM across multiple mediums, including **text, images, video, and audio**. By leveraging cutting-edge architectures like Diffusion Transformers and Latent Consistency Models, this suite enables developers to build sophisticated generative workflows with minimal setup.
 
 ---
 
-## 🚀 Core Capabilities
-
-### 1. Text-to-Image (T2I)
+## 🚀 Text-to-Image (T2I)
 Generate high-fidelity visual art and photorealistic images from natural language descriptions. 
-* **Supported Models:** Stable Diffusion XL, Midjourney-API integration, and DALL-E 3.
-* **Key Features:** Support for negative prompting, LoRA weights, and custom aspect ratios.
+* **Open-source Models:** Qwen-Image, SDXL, SD-1.5, Kandinsky 
+* **Key Features:** negative prompting, LoRA weights, and control net
 
-[Click here](text_to_image.md) to view details
+[Click here](text_to_image.md) to view configurations and examples
 
-### 2. Image-to-Image (I2I)
+## 🚀 Image-to-Image (I2I)
 Transform existing images into new styles or modify specific elements while maintaining structural integrity.
-* **Supported Models:** ControlNet, IP-Adapter, and InstructPix2Pix.
-* **Key Features:** Style transfer, sketch-to-render, and depth-map guided generation.
+* **Open-source Models:** Qwen-Image-Edit, SDXL, RealVisXL_V4.0, controlnet-depth-sdxl-1.0-small, autoencoderKL vae: sdxl-vae-fp16-fix, 
+* **Key Features:** negative prompting, inpainting, outpainting, masking, style tranfer/IP-adapter including face adapter, T2I adapter, control net, depth-map guided generation
 
-[Click here](image-to-image.md) to view details
+[Click here](image-to-image.md) to view configurations and examples 
 
-### 3. Text-to-Video (T2V)
+## 🚀 Text-to-Video (T2V)
 Convert descriptive prompts into dynamic, high-definition video clips with consistent temporal coherence.
-* **Supported Models:** Sora-based architectures, Stable Video Diffusion (SVD), and Lumiere.
-* **Key Features:** Frame rate control, motion bucket adjustments, and resolution scaling.
+* **Open-source Models:** Wan-2.1, modelscope, LTX-video, AnimateDiff motion adapter 
+* **Key Features:** frame rate control, and resolution scaling.
 
-[Click here](text_to_video.md) to view details
+[Click here](text_to_video.md) to view configurations and examples 
 
-### 4. Image-to-Video (I2V)
+## 🚀 Image-to-Video (I2V)
 Animate static images into 3–5 second cinematic clips using advanced optical flow estimation.
-* **Supported Models:** Runway Gen-2 API and Pika Labs wrappers.
-* **Key Features:** Keyframe animation, camera motion control (pan, zoom, tilt), and loop generation.
+* **Open-source Models:** SVD-img2vid-xt
+* **Key Features:** keyframe animation
 
-[Click here](image_to_video.md) to view details
+[Click here](image_to_video.md) to view configurations and examples 
 
-### 5. Text-to-Audio (T2A)
+## 🚀 Text-to-Audio (T2A)
 Generate high-quality sound effects, ambient soundscapes, or musical compositions from text.
+* **Open-source Models:** SVD-img2vid-xt
+* **Key Features:** keyframe animation
+  
 * **Supported Models:** AudioLDM, MusicLM, and Bark.
 * **Key Features:** Stereo output, duration control, and multi-instrumental synthesis.
 
-[Click here](text_to_audio.md) to view details
+[Click here](text_to_speech.md) to view configurations and examples 
 
 ---
 
-
-## 🤝 Contributing
-Contributions are welcome! Please read the `CONTRIBUTING.md` file for details on our code of conduct and the process for submitting pull requests.
-
-## 📄 License
+### 📄 License
 This project is licensed under the **MIT License** - see the `LICENSE` file for details.

@@ -35,16 +35,16 @@ https://github.com/user-attachments/assets/ed4832ac-8aa8-4477-a9a6-8dbeba3f8687
 
 
 ### Kokoro TTS 
-Very slim model (82M)
-Language code
-🇺🇸 'a' => American English, 🇬🇧 'b' => British English
-🇪🇸 'e' => Spanish es
-🇫🇷 'f' => French fr-fr
-🇮🇳 'h' => Hindi hi
-🇮🇹 'i' => Italian it
-🇯🇵 'j' => Japanese: pip install misaki[ja]
-🇧🇷 'p' => Brazilian Portuguese pt-br
-🇨🇳 'z' => Mandarin Chinese: pip install misaki[zh]
+Very slim model (82M)     
+Language code     
+🇺🇸 'a' => American English, 🇬🇧 'b' => British English     
+🇪🇸 'e' => Spanish es     
+🇫🇷 'f' => French fr-fr     
+🇮🇳 'h' => Hindi hi     
+🇮🇹 'i' => Italian it     
+🇯🇵 'j' => Japanese: pip install misaki[ja]      
+🇧🇷 'p' => Brazilian Portuguese pt-br     
+🇨🇳 'z' => Mandarin Chinese: pip install misaki[zh]     
 
 Load English pipeline
 ```

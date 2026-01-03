@@ -5,7 +5,7 @@
 
 </div>
 
-This repository is an all-in-one suite for open-source state-of-the-art **Multimodal Large Language Models**. It demonstrates examples for multimodal content generation by MMLLM across multiple mediums, including **text, images, video, and audio**. By leveraging cutting-edge architectures like Diffusion Transformers and Latent Consistency Models, this suite enables developers to build sophisticated generative workflows with minimal setup.
+This repository is an all-in-one suite for open-source state-of-the-art **Multimodal Large Language Models**. It demonstrates examples for multimodal content generation by MMLLM across multiple mediums, including **text, images, video, and audio**. By leveraging cutting-edge architectures like Diffusion Transformers and Latent Consistency Models, you can build sophisticated generative image, video and speech with optimized latency and compute resources, as well as minimum costs. 
 
 ---
 
@@ -13,6 +13,14 @@ This repository is an all-in-one suite for open-source state-of-the-art **Multim
 Generate high-fidelity visual art and photorealistic images from natural language descriptions. 
 * **Open-source Models:** Qwen-Image, SDXL, SD-1.5, Kandinsky 
 * **Key Features:** negative prompting, LoRA weights, and control net
+
+3D model                                                                                     |  Anime
+:-------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:
+<img src="images/sdxl_t2i_example_1_3d_model.png" width="60%" height="60%" alt="3dmodel" />  |  <img src="images/sdxl_t2i_example_1_anime.png" width="60%" height="60%" alt="anmie" />
+
+Comic                                                                                   |  Line art
+:--------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------:
+<img src="images/sdxl_t2i_example_1_comic.png" width="60%" height="60%" alt="comic" />  |  <img src="images/sdxl_t2i_example_1_lineart.png" width="60%" height="60%" alt="lineart" />
 
 [Click here](text_to_image.md) to view configurations and examples
 
@@ -22,6 +30,17 @@ Transform existing images into new styles or modify specific elements while main
 * **Key Features:** negative prompting, inpainting, outpainting, masking, style tranfer/IP-adapter including face adapter, T2I adapter, control net, depth-map guided generation
 
 [Click here](image-to-image.md) to view configurations and examples 
+
+Face                                                               |  Generated
+:-----------------------------------------------------------------:|:-----------------------------------------------------------------------------------:
+<img src="images/yb_1.png" width="60%" height="60%" alt="face1" /> |<img src="images/faceip_adapter_yb_1.png" width="30%" height="30%" alt="comic_img" />
+
+Face                                                                 |  Generated
+:-------------------------------------------------------------------:|:------------------------------------------------------------------------------------:
+<img src="images/yb_2.jpg" width="120%" height="120%" alt="face2" /> |<img src="images/faceip_adapter_yb_2.png" width="30%" height="30%" alt="comic_img" />
+
+Original image | Mask image | Generated image        
+<img src="images/ipadapter_controlnet_1.png" width="80%" height="80%" alt="controlnet_1" />
 
 ## 🚀 Text-to-Video (T2V)
 Convert descriptive prompts into dynamic, high-definition video clips with consistent temporal coherence.
@@ -39,11 +58,8 @@ Animate static images into 3–5 second cinematic clips using advanced optical f
 
 ## 🚀 Text-to-Audio (T2A)
 Generate high-quality sound effects, ambient soundscapes, or musical compositions from text.
-* **Open-source Models:** SVD-img2vid-xt
-* **Key Features:** keyframe animation
-  
-* **Supported Models:** AudioLDM, MusicLM, and Bark.
-* **Key Features:** Stereo output, duration control, and multi-instrumental synthesis.
+* **Open-source Models:** Speech-T5, MMS-TTS, Kokoro TTS, musicgen-small, Coqui TTS (XTTS v2)
+* **Key Features:** voice cloning, multi-language support, duration control
 
 [Click here](text_to_speech.md) to view configurations and examples 
 
